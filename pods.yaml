@@ -1,11 +1,12 @@
+--- 
 apiVersion: v1
 kind: Pod
-metadata:
-  name: some-elasticsearch
-  labels:
+metadata: 
+  labels: 
     name: some-elasticsearch
-spec:
-  containers:
-  - name: elasticsearch
-    image: launcher.gcr.io/google/elasticsearch2
-  
+  name: some-elasticsearch
+spec: 
+  containers: 
+    - 
+      image: launcher.gcr.io/google/elasticsearch2
+      name: elasticsearch
