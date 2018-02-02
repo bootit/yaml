@@ -6,5 +6,6 @@ metadata:
     name: some-elasticsearch
 spec:
   containers:
-    - image: launcher.gcr.io/google/elasticsearch2
-      name: elasticsearch
+  - name: elasticsearch
+    image: launcher.gcr.io/google/elasticsearch2
+  
